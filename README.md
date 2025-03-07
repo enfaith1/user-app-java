@@ -68,5 +68,5 @@ The application consists of several Java classes:
 * **UI/UX:** Improve the user interface and user experience.
 * **Code Organization:** Refactor the code for better organization and maintainability.
 * **File Path Configuration:** Make the `user.json` file path configurable.
-* **Robust File handling:** add try catch blocks around file read and write operations.
+* **Robust File handling:** Add try catch blocks around file read and write operations.
 * **Session Management:** Implement session management for better security.
