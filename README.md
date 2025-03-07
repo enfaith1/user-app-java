@@ -1,6 +1,6 @@
 # Simple User Management Application (Java Swing)
 
-This Java Swing application provides basic user login and management functionalities. It allows users to log in, add, update, and manage user accounts stored in a JSON file.
+This Java Swing application provides basic user login and management functionalities. It allows users to log in, add, update, and delete user accounts stored in a JSON file.
 
 ## Overview
 
@@ -31,7 +31,11 @@ The application consists of several Java classes:
     * Users can update existing user credentials by providing the current username, new username, and new password.
     * The application searches for the user and updates the information.
 
-5.  **Data Storage:**
+5.  **Delete User:**
+    * Users can delete existing user credentials.
+    * It searches for the username in the JSON array. If found, the user is removed from the list.
+        
+6.  **Data Storage:**
     * User data is stored in a JSON file (`user.json`).
 
 ## How to Run
